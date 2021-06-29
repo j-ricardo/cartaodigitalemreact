@@ -1,0 +1,124 @@
+@font-face{
+    font-family: 'bebas';
+    src: url('../fonts/bebas.ttf')
+  }
+  
+  body{   
+    background: url('../img/FIO_BG_SMARTPHONE.png') no-repeat center center fixed;
+    min-width: 360px;
+    background-size: cover;
+    height: 100%;
+    width: 100%;  
+    margin: 0;
+    font-family: 'bebas', monospace;
+  }
+
+  .principal{
+    margin-top: 30%;
+  }
+
+  .logoModa{
+      background-image: url('../img/FIO_LOGO_SMARTPHONE.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      height: 300px;
+      margin: 0;
+      margin-left: 26%;
+      margin-right: 26%;
+  }
+  
+  .titulo{
+    color: #c16f59;
+    font-weight: normal;
+    font-size: 23px;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .subtitulo{
+    text-align: center;
+    color: #c16f59;
+    font-weight: normal;
+    font-size: 9px;
+    letter-spacing: 1px;
+    margin-top: 5px;
+  }  
+
+  .btn-grupo{
+    margin-top: 30px;
+    display:list-item;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .botao{    
+    font-family: 'bebas', monospace;
+    border: none;
+    background-color: #d89887;
+    font-size: 18px;
+    font-weight: normal;
+    color: #fef4e8;
+    border-radius: 25px;
+    align-items: center;    
+    width: 70%;
+    letter-spacing: 2px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    margin-left: 15%;
+  }
+
+  .botao:hover{
+    background-color: #cc8f7e;
+  }
+
+  @media screen and (min-width: 1081px){
+    body{
+      background: url('../img/FIO_BG_DESKTOP.png') no-repeat center center fixed;
+      background-size: auto;
+      height: 100%;
+      width: 100%;  
+      margin: 0;    
+      font-family: 'bebas', monospace;
+    }
+
+    .principal{
+      margin: 9%;
+    }
+
+    .logoModa{      
+      background-image: url('../img/FIO_LOGO_DESKTOP.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+    }
+
+    .titulo{
+      font-size: 35px;
+    }
+
+    .subtitulo{
+      font-size: 13px;
+    }
+
+    .botao{    
+      font-family: 'bebas', monospace;
+      border: none;
+      background-color: #d89887;
+      font-size: 18px;
+      font-weight: normal;
+      color: #fef4e8;
+      border-radius: 25px;
+      align-items: center;
+      letter-spacing: 2px;
+      padding-top: 22px;
+      padding-bottom: 22px;
+      margin-bottom: 30px;
+      width: 40%;
+      margin-left: 30%;
+    }
+  }
